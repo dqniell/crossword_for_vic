@@ -52,14 +52,6 @@ export default function VictoryPage() {
     setEnvelopeOpened(true);
   };
 
-  const getTeaseMessage = () => {
-    if (noAttempts === 0) return null;
-    if (noAttempts < 3) return "hehe nice try~";
-    if (noAttempts < 6) return "u can't catch me!! hehe";
-    if (noAttempts < 10) return "just click yes already pookie~";
-    if (noAttempts < 15) return "the no button is too speedy 4 u!!";
-    return "okaaay ur persistent... but still nuh uh!!";
-  };
 
   // Sparkle emojis to scatter
   const sparkles = ['✨', '💖', '💗', '🌸', '💕', '⭐', '🦋'];
@@ -155,10 +147,6 @@ export default function VictoryPage() {
 
         <div className="question-box">
           <h2 className="the-question">will u be my valentine?? 💝</h2>
-
-          {getTeaseMessage() && (
-            <p className="tease-message">{getTeaseMessage()}</p>
-          )}
 
           <div className="button-container">
             <button

@@ -1,0 +1,46 @@
+.app {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #f0c4d4;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.app-header h1 {
+  font-family: 'Georgia', serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #d4618c;
+  margin-bottom: 6px;
+  letter-spacing: 1px;
+}
+
+.app-header h1::before {
+  content: '~ ';
+  color: #f0a0c0;
+}
+
+.app-header h1::after {
+  content: ' ~';
+  color: #f0a0c0;
+}
+
+.puzzle-date {
+  font-size: 1rem;
+  color: #b08a9a;
+  font-style: italic;
+}
+
+.puzzle-date::before {
+  content: '\2661  ';
+}
+
+.puzzle-date::after {
+  content: '  \2661';
+}

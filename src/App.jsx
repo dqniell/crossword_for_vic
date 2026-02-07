@@ -8,7 +8,7 @@ function App() {
     <div className="app">
       <header className="app-header">
         <h1>Crossword for Pookie</h1>
-        <p className="puzzle-date">Sunday, December 2024</p>
+        <p className="puzzle-date">Saturday, February 7, 2024</p>
       </header>
       <Crossword data={crosswordData} />
     </div>
